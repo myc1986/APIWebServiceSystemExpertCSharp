@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIWebServiceSystemExpertCSharp", "APIWebServiceSystemExpertCSharp", "{DF2DD57F-35BF-4123-96FD-B47E86A4F710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIWebServiceSystemExpertCSharp.Web", "APIWebServiceSystemExpertCSharp.Web\APIWebServiceSystemExpertCSharp.Web.csproj", "{2DFDF8E1-C031-48C4-B859-B00985295F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIWebServiceSystemExpertCSharp", "APIWebServiceSystemExpertCSharp\APIWebServiceSystemExpertCSharp.csproj", "{56B46BDC-01CC-48BE-BBFD-65CCA30AD282}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DFDF8E1-C031-48C4-B859-B00985295F18} = {2DFDF8E1-C031-48C4-B859-B00985295F18}
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelisationAPIWebServiceSystemExpertCsharp", "ModelisationAPIWebServiceSystemExpertCsharp\ModelisationAPIWebServiceSystemExpertCsharp.modelproj", "{DA39E1E8-AC72-44ED-9174-DA9381396D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DFDF8E1-C031-48C4-B859-B00985295F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFDF8E1-C031-48C4-B859-B00985295F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFDF8E1-C031-48C4-B859-B00985295F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFDF8E1-C031-48C4-B859-B00985295F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B46BDC-01CC-48BE-BBFD-65CCA30AD282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B46BDC-01CC-48BE-BBFD-65CCA30AD282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B46BDC-01CC-48BE-BBFD-65CCA30AD282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B46BDC-01CC-48BE-BBFD-65CCA30AD282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA39E1E8-AC72-44ED-9174-DA9381396D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA39E1E8-AC72-44ED-9174-DA9381396D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA39E1E8-AC72-44ED-9174-DA9381396D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA39E1E8-AC72-44ED-9174-DA9381396D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DFDF8E1-C031-48C4-B859-B00985295F18} = {DF2DD57F-35BF-4123-96FD-B47E86A4F710}
+		{56B46BDC-01CC-48BE-BBFD-65CCA30AD282} = {DF2DD57F-35BF-4123-96FD-B47E86A4F710}
+	EndGlobalSection
+EndGlobal
